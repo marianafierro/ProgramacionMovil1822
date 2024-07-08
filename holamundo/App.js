@@ -63,6 +63,7 @@ export default function App() {
     <View style={styles.container}>
 
       <FlatList 
+      data={[{key:1,name: 'Ivan Isay'},
         {key:2,name: 'Mariana'},
         {key:3,name: 'Diego'},
         {key:4,name: 'Aldair'},
