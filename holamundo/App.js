@@ -44,8 +44,9 @@ const styles = StyleSheet.create({
   },
 });*/
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, TextInput, ScrollView, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, FlatList, Button, TextInput, ScrollView, Dimensions } from 'react-native';
 import React, { useState } from 'react';
+
 
 /*const Texto = ({ contenido, actualizarContenido, estilo }) => {
   return <Text style={[styles.text,estilo]} onPress={actualizarContenido}>{contenido}</Text>;
@@ -60,6 +61,33 @@ export default function App() {
   
   return (
     <View style={styles.container}>
+
+      <FlatList 
+        {key:2,name: 'Mariana'},
+        {key:3,name: 'Diego'},
+        {key:4,name: 'Aldair'},
+        {key:5,name: 'Josue'},  
+        {key:6,name: 'Josue'},  
+        {key:7,name: 'Josue'},  
+        {key:8,name: 'Josue'},  
+        {key:9,name: 'Josue'},  
+        {key:10,name: 'Josue'},  
+        {key:11,name: 'Josue'},  
+        {key:12,name: 'Josue'},  
+        {key:13,name: 'Josue'},  
+        {key:14,name: 'Josue'},  
+        {key:15,name: 'Josue'},  
+        {key:16,name: 'Josue'},  
+        {key:17,name: 'Josue'},  
+        {key:18,name: 'Josue'},  
+        {key:19,name: 'Josue'},  
+        {key:20,name: 'Josue'},  
+
+      ]}
+      renderItem={({item})=><Text style= {styles.item}> {item.name} </Text> }
+      
+      />
+
 
       <ScrollView style={styles.scroll}>
       <Text> Componente TexInput: {submit} </Text>
@@ -94,120 +122,7 @@ export default function App() {
       <Text> Componente TexInput: {submit} </Text>
       <Text> Componente TexInput: {submit} </Text>
       <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
-      <Text> Componente TexInput: {submit} </Text>
+    
       <TextInput style={styles.Tex}  placeholder='Cual es tu nombre: ' onChangeText= { t=>setText(t) } defaultValue={text} />
         <Button title='Puchurrame' style={styles.boton} onPress={ ()=>{setSubmit(text); alert('Texto enviado')} }/>
         </ScrollView>
@@ -226,8 +141,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center', // flex-start pociona los cuadros a mano izquierda y con end al lado derecho  y el strechtoma todo lo largo dela pantalla
     justifyContent: 'center', // coloca todo ya sea arriba o abajo flex-start y flex-end , space-between (crea espacios entre componentes )
-    
+    paddingTop: 40, 
+
   },
+  item:{
+    padding: 10,
+    fontSize: 24,
+    height: 50,
+    borderColor: 'Pink',
+    borderBottomWidth: 1,
+
+  }
 
   Tex:{
     width:300,
